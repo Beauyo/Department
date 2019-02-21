@@ -50,5 +50,4 @@ class DepartmentsController < ApplicationController
     def set_department
       @departments = Department.find(params[:id])
     end
-
 end
