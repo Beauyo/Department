@@ -1,0 +1,13 @@
+<h1>Departments</h1>
+<%= form_for @departments do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :address %>
+  <%= f.text_field :address %>
+
+  <%= f.label :phone %>
+  <%= f.text_field :phone %>
+
+  <%= submit %>
+  <% end %>
