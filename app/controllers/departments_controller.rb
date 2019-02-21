@@ -30,8 +30,8 @@ class DepartmentsController < ApplicationController
 
     def update 
       
-      if @department.update(department_params)
-        redirect_to @department
+      if @departments.update(department_params)
+        redirect_to @departments
       else 
         render :edit
       end

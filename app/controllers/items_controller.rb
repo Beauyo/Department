@@ -25,8 +25,8 @@ class ItemsController < ApplicationController
     end
 
     def update
-      if @department.update(department_params)
-        redirect_to @department
+      if @items.update(items_params)
+        redirect_to @items
       else
         render edit:
       end
